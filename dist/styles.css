@@ -342,7 +342,7 @@ h2 { margin-bottom: 24px; color: var(--green-900); font-size: clamp(2.6rem, 4.7v
 .award-copy h2 { max-width: 650px; }
 .award-copy > p:last-child { margin-bottom: 0; color: var(--muted); }
 .award-year { margin-bottom: 8px; color: var(--lime); font-family: Georgia, 'Times New Roman', serif; font-size: 4rem; line-height: 1; }
-.award-visual { padding: 18px; border: 1px solid var(--line); border-radius: 50% 50% 18px 18px; background: var(--paper); box-shadow: var(--shadow); }
+.award-visual { width: min(100%, 380px); justify-self: end; padding: 18px; border: 1px solid var(--line); border-radius: 50% 50% 18px 18px; background: var(--paper); box-shadow: var(--shadow); }
 .award-visual img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 20%; border-radius: 50% 50% 10px 10px; }
 
 .contact-section { padding: clamp(80px, 10vw, 136px) 0; background: var(--green-800); color: white; }
@@ -378,7 +378,7 @@ h2 { margin-bottom: 24px; color: var(--green-900); font-size: clamp(2.6rem, 4.7v
   .focus-card { min-height: 290px; border-right: 0; border-bottom: 1px solid rgba(13, 75, 50, 0.22); }
   .focus-card:last-child { border-bottom: 0; }
   .portrait-wrap { margin-inline: auto; }
-  .award-visual { width: min(100%, 560px); margin-inline: auto; }
+  .award-visual { width: min(100%, 380px); margin-inline: auto; }
   .footer-grid { grid-template-columns: 1fr; gap: 22px; }
   .copyright { text-align: left; }
 }
