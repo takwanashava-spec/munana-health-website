@@ -343,7 +343,7 @@ h2 { margin-bottom: 24px; color: var(--green-900); font-size: clamp(2.6rem, 4.7v
 .award-copy > p:last-child { margin-bottom: 0; color: var(--muted); }
 .award-year { margin-bottom: 8px; color: var(--lime); font-family: Georgia, 'Times New Roman', serif; font-size: 4rem; line-height: 1; }
 .award-visual { width: min(100%, 380px); justify-self: end; padding: 18px; border: 1px solid var(--line); border-radius: 50% 50% 18px 18px; background: var(--paper); box-shadow: var(--shadow); }
-.award-visual img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 20%; border-radius: 50% 50% 10px 10px; }
+.award-visual img { display: block; width: 100%; height: auto; border-radius: 50% 50% 10px 10px; }
 
 .contact-section { padding: clamp(80px, 10vw, 136px) 0; background: var(--green-800); color: white; }
 .contact-grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(380px, 1fr); gap: clamp(60px, 10vw, 150px); }
