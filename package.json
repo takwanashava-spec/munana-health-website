@@ -1,0 +1,10 @@
+{
+  "name": "munana-health-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "check": "node --check dist/script.js && node tools/check-site.mjs"
+  }
+}
